@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- 
+HI! I'm Khan518, a coder on Khan Academy.
+This webpage I made is all about me and my history between Khan Academy.
+Notice: The P button is my profile.
+
+Have a good time!
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Webpage</title>
+    </head>
+        <body>
+            <div class = "headings">
+                <h1>Welcome to MY webpage</h1>
+                <h3 class = "heading">By Khan518</h3>
+                </div>
+            <h3>Option: jump to section <br> 
+            <a href = "#aboutme" class = "tag">- About me</a><br>
+            <a href = "#scratch" class = "tag">- Me and Scratch</a><br>
+            <a href = "#programmingw" class = "tag"> - Other Programming Websites I use</a><br>
+            <a href = "#future" class = "tag"> - What I will do in the future</a><br>
+            <a href = "#opinion" class = "tag"> - What do you think?</a>
+            </h3>
+            <div id = "aboutme">
+                <h2>About Me</h2>
+                <p>I am Khan518. I frequently create basic projects on ProcessingJS and HTML, as I have (nearly) mastered these programming languages. I learn coding both on Khan Academy and W3Schools. <br> <a href = "https://www.khanacademy.org/profile/kaid_969962015097203646762112/">My Profile</a> <br> <a href = "https://w3schools.com">W3Schools</a></p>
+            </div>
+            <div id = "scratch">
+                <h2>Me and Scratch</h2>
+                <p>I started learning on Scratch when I was young, but in 2024 I created a new profile (NumberOneCoder763). I was also taking courses about math and grammar at that time. Afterwards, I learned HTML (on Khan Academy), which teached the basics of a webpage, but I thought that wasn't enough, so I found this website named W3Schools. It teaches about coding. After I learned HTML there, I knew a lot more. Now I am busy making projects on Scratch and still learning about HTML.</p>
+            </div>
+            <div id = "programmingw">
+            <h2>Other Programming Websites I Use</h2>
+            <p>I am also learning ProcessingJs, a programming language that is kind of like JS. It's actually pretty hard to learn. Click the button below to go to Khan Academy. <br> <a href = "https://khanacademy.org">Khan Academy</a> <br> Or, you can see a list of all programming languages here:<br><a href = "https://en.wikipedia.org/wiki/List_of_programming_languages">List of programming languages</a><br><a href = "https://scratch.mit.edu/users/NumberOneCoder763/">My projects on Scratch</a></p>
+            </div>
+            <div id = "future">
+            <h2>What I will do in the future</h2>
+            <p>I will learn more about Javascript and C--, C, C+, C++, C* or C#. When I'm older, I either want to be a mathematician (yes, I'm also pretty good at math), or a programmer. Well, probably both.</p>
+            </div>
+        <style>
+            .headings {
+                font-family: Trebuchet MS, Arial;
+                color: #ccccff;
+                border-bottom: 1px solid;
+                margin: 50px;
+            }
+            div {
+                border-bottom: 1px solid grey;
+            }
+            p, h2, h3 {
+                color: white;
+                font-family: "tahoma";
+                font-size: 17.5px;
+            }
+            .heading {
+                font-family: Trebuchet MS, Arial;
+                color: #ccccff;
+            }
+            .tag {
+                color: blue;
+                background-color: #363636;
+                border: none;
+                padding: none;
+            }
+            body {
+                background-color: #363636;
+            }
+            a {
+               background-color: white;
+               text-decoration: none;
+               color: black;
+               border: solid 3px black;
+               padding: 3px;
+               line-height: 35px;
+            }
+            a:hover {
+                background-color: #eeeeee;
+            }
+            a.tag:hover {
+                background-color: #363636;
+            }
+        </style>
+        <div id = "opinion">
+        <h2>What do you think?</h2>
+        <p>What do you think about all these websites? Which website do you like most, and which language do you like most? Please tell me in the comments! <br> I hope you have a good time - See you  soon!</p>
+        </div>
+    </body>
+</html>
